@@ -318,6 +318,7 @@ p {
 #product-1 .pro .item-1 {
     width: 100%;
     background-color: var(--clr-accent-lighter);
+    border: 1px solid black;
     border-radius: 10px;
     margin-bottom: -5px;
 }
