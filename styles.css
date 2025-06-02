@@ -164,12 +164,12 @@ p {
 .hero {
     /*background-image: url("coffpact-logo.png");*/
     
-    background-image: url("coffpact with tick.png");
+    background-image: url("coffpact-product\ copy.png");
     background-color: #c6e7df;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top 40% right;
-    background-position-x: calc(100% + 120px);
+    background-position-x: calc(100% + 190px);
     height: 65vh;
     width: 100%;
     padding: 0 80px;
@@ -180,7 +180,8 @@ p {
 }
 
 .hero h1 {
-    color: var(--clr-accent);
+    color: var(--clr-light);
+    margin-bottom: 40px;
 }
 .hero h2 {
     font-weight: 900;
@@ -189,18 +190,20 @@ p {
 
 .hero button {
     background-color: var(--clr-light);
-    width: 100px;
-    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
     border-color: var(--clr-accent);
     cursor: pointer;
-    font-size: 15px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .hero button:hover {
     color: var(--clr-accent);
     background-color: var(--clr-dark);
     transform: scale(1.1);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* FEATURE BOXES */
@@ -613,6 +616,8 @@ p {
     width: 150px;
 }
 
+/* FIRST VERSION OF LOGOS */
+/*
 .footer .follow {
     margin-top: 20px;
 }
@@ -625,6 +630,17 @@ p {
 .footer .follow .icon i:hover,
 .footer a:hover {
     color: var(--clr-accent);
+}
+/*
+/* AMENDED VERSION OF LOGOS */
+.footer i {
+    font-size: 18px;
+}
+
+.footer i:hover,
+.footer a:hover {
+    color: var(--clr-accent);
+    cursor: pointer;
 }
 
 .footer .footer-logo {
